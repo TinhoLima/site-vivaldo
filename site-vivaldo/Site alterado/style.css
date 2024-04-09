@@ -773,6 +773,13 @@ a.bttn-new:focus {
     padding: 40px 0;
 }
 
+.section-title {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 40px 0;
+}
+
 .noover {
     overflow: visible;
 }
@@ -839,7 +846,7 @@ a.bttn-new:focus {
     display: block;
     position: relative;
     margin-bottom: 60px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .section-title p {
@@ -877,8 +884,10 @@ a.bttn-new:focus {
 
 
 
-.main {
+.container-main {
     background-color: white;
+    padding: 0 15px;
+    padding-top: 40px;
 }
 
 
