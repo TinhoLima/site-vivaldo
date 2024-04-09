@@ -766,19 +766,6 @@ a.bttn-new:focus {
     transition: all .4s ease-in-out;
 }
 
-.section {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    padding: 40px 0;
-}
-
-.section-title {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    padding: 0 0 40px 0;
-}
 
 .noover {
     overflow: visible;
@@ -842,11 +829,18 @@ a.bttn-new:focus {
     bottom: -6%;
 }
 
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
 .section-title {
     display: block;
     position: relative;
-    margin-bottom: 60px;
-    /* margin-top: 60px; */
+    overflow: hidden;
+    /* padding: 0 0 40px 0; */
 }
 
 .section-title p {
@@ -882,6 +876,22 @@ a.bttn-new:focus {
     background-size: contain;
 }
 
+/* .container-navbar {
+    background-color: tomato;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: block;
+}
+
+.navbar-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+} */
 
 
 .container-main {
