@@ -868,10 +868,17 @@ a.bttn-new:focus {
 
 #about{
 
-    background-size: cover;
-	background-image: linear-gradient(to right, #0594a9, transparent, #0594a9), url("images/pattern-4.png") center;
-	background-repeat: no-repeat;
-	/* background-position: left; */
+    /* background-size: cover; */
+	background-image: url(images/pattern-4.1.png);
+	background-repeat: repeat-y;
+	background-position: left;
+    background-size: contain;
+}
+
+
+
+.main {
+    background-color: white;
 }
 
 
