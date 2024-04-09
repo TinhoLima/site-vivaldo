@@ -895,9 +895,10 @@ a.bttn-new:focus {
     overflow: hidden;
 }
 
+
 .fundoAnimado:hover h4{
-    color: #fff;
-    transform: scale(1.2);
+    color: #727272;
+    /* transform: scale(1.2); */
 }
 
 .fundoAnimado::before{
