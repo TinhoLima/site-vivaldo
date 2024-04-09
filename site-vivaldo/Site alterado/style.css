@@ -22,7 +22,7 @@
     14. CONTACT
     15. FOOTER
     16. MISC
-    17. BUTTONS
+    17. BUTTONSSKELETON
 -------------------------------------------------------------------*/
 
 
@@ -864,6 +864,16 @@ a.bttn-new:focus {
 .section.db h3 {
     color: #ffffff;
 }
+
+
+#about{
+
+    background-size: cover;
+	background-image: linear-gradient(to right, #0594a9, transparent, #0594a9), url("images/pattern-4.png") center;
+	background-repeat: no-repeat;
+	/* background-position: left; */
+}
+
 
 
 body.seo_version .btn-light.ban-btn{
@@ -2708,6 +2718,14 @@ body.seo_version .footer-links a:hover{
 
 
 /**-------------- inner Page css ---------------**/
+
+.all-page-background{
+	background-size: cover;
+	background-color: #0594a9;
+	background-repeat: no-repeat;
+	padding: 160px 0px 110px 0px;
+	background-position: center bottom;
+}
 
 
 .all-page-title{
