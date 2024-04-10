@@ -880,7 +880,6 @@ a.bttn-new:focus {
 
 
 #about{
-
     /* background-size: cover; */
 	background-image: url(images/background-atual.jpg);
 	background-repeat: no-repeat;
@@ -898,6 +897,16 @@ a.bttn-new:focus {
     transition: all .2s ease-in-out;}
 
 
+.imgDestaque2:hover{
+    scale: 1.05;
+    /* box-shadow:0 4px 4px #727272; */
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.imgDestaque2 {
+    padding-top: 50px;
+}
 
 .imgDestaque:hover{scale: 1.05;
     /* box-shadow:0 4px 4px #727272; */
@@ -919,10 +928,33 @@ a.bttn-new:focus {
     width: 100%;
 }
 
+.tituloAnimado2::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(47, 200, 211);
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    transition: 0.5s ease-in-out;
+}
+
+.tituloAnimado2:hover::after{
+    width: 90%;
+}
+
+.espacoTitulo{
+    padding-top: 50px;
+}
+
 .container-main {
     background-color: white;
     padding: 0 15px;
     padding-top: 40px;
+}
+
+.centralizarTitulo{
+    text-align: center;
 }
 
 
@@ -1580,6 +1612,10 @@ button.bttn-new-a:focus {
 .service-widget p {
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+.service-widget{
+    border-radius: 20px;
 }
 
 .message-box h4 {
