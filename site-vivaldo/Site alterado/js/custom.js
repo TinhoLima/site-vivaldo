@@ -10,7 +10,7 @@
     =============================================== */
     
 	$(window).on('scroll', function () {
-		if ($(window).scrollTop() > 50) {
+		if ($(window).scrollTop() > 0) {
 			$('.top-navbar').addClass('fixed-menu');
 		} else {
 			$('.top-navbar').removeClass('fixed-menu');
