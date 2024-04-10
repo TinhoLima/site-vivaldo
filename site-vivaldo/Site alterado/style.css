@@ -870,10 +870,10 @@ a.bttn-new:focus {
 #about{
 
     /* background-size: cover; */
-	background-image: url(images/pattern-4.1.png);
-	background-repeat: repeat-y;
+	background-image: url(images/background-atual.jpg);
+	background-repeat: no-repeat;
 	background-position: left;
-    background-size: contain;
+    background-size: cover;
 }
 
 .videoDestaque{position:relative;
