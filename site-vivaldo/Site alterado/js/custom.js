@@ -10,10 +10,14 @@
     =============================================== */
     
 	$(window).on('scroll', function () {
+        let img = document.getElementById("img-logo");
+
 		if ($(window).scrollTop() > 0) {
 			$('.top-navbar').addClass('fixed-menu');
+            img.src = "images/logo-pgnet/ARTE FINAL Logo PGNET.png"
 		} else {
-			$('.top-navbar').removeClass('fixed-menu');
+            $('.top-navbar').removeClass('fixed-menu');
+            img.src = "images/logo-pgnet/ARTE FINAL Logo PGNET-branca.png"
 		}
 	});
 	
