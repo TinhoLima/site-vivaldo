@@ -874,6 +874,7 @@ a.bttn-new:focus {
 	background-repeat: no-repeat;
 	background-position: left;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .videoDestaque{position:relative;
