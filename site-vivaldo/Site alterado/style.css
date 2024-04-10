@@ -2765,6 +2765,22 @@ body.seo_version .footer-links a:hover{
     border: 0 !important;
 }
 
+.btn-click {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #ea3232;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin: 0 5px;
+    box-shadow: 2px 8px 18px 0px rgba(254, 76, 28, 0.3);
+}
+
+.btn-click:hover {
+    box-shadow: none;
+    color: #fff;
+}
+
 .btn-light {
     padding: 13px 40px;
     font-size: 18px;
