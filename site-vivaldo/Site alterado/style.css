@@ -892,46 +892,8 @@ a.bttn-new:focus {
     transition: all .2s ease-in-out;
 }
 
-.fundoAnimado{
-    overflow: hidden;
-}
-
-
-.fundoAnimado:hover h4{
-    color: #727272;
-    /* transform: scale(1.2); */
-}
-
-.fundoAnimado::before{
-    content: "";
-    width: 600px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: -100px;
-    top: 100%;
-    background-color: #01A79D;
-}
-
-.fundoAnimado:hover::before{
-    animation: desloca .5s;
-    left:0;
-    top: 40%;
-}
-
-@keyframes desloca {
-    0%{
-        left: -80%;
-        top: 50%;
-    }
-    50%{
-        left: 10%;
-        top: 20%;
-    }
-    100%{
-        left:0;
-        top: 40%;
-    }
+.tituloAnimado{
+    
 }
 
 .container-main {
