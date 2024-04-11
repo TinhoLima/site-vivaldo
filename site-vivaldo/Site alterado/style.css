@@ -481,11 +481,14 @@ a img.aligncenter {
 .top-navbar .bg-light{
 	padding-top: 15px;
 	padding-bottom: 15px;
-	box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
 }
 
-.top-navbar .navbar-nav{
-	font-weight: 500;
+.shadow-on{
+    box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.20);
+}
+
+.navbar-shadow{
+    background: linear-gradient(to bottom, rgba(6, 6, 6, 0.8) -4%, rgba(0, 0, 0, 0) 100%)!important;
 }
 
 .color-navbar {
@@ -498,7 +501,7 @@ a img.aligncenter {
 	position: relative;
 }
 .top-navbar .navbar-light .nav-link{
-	padding: 10px 18px;
+	padding: 10px 12px;
 	color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -510,7 +513,8 @@ a img.aligncenter {
 	content: '';
 	left: 0px;
 	bottom: 0px;
-	width: 100%;
+	width: 70%;
+    margin-left: 15%;
 	height: 10%;
 	display: block;
 	opacity: 0;

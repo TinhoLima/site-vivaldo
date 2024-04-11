@@ -14,11 +14,15 @@
 
 		if ($(window).scrollTop() > 0) {
 			$('.top-navbar').addClass('fixed-menu');
-            $('.nav-link').addClass('color-navbar')
+            $('.nav-link').addClass('color-navbar');
+            $('.bg-light').addClass('shadow-on');
+            $('.navbar').removeClass('navbar-shadow');
             img.src = "images/logo-pgnet/ARTE FINAL Logo PGNET.png"
 		} else {
             $('.top-navbar').removeClass('fixed-menu');
-            $('.nav-link').removeClass('color-navbar')
+            $('.nav-link').removeClass('color-navbar');
+            $('.bg-light').removeClass('shadow-on');
+            $('.navbar').addClass('navbar-shadow');
             img.src = "images/logo-pgnet/ARTE FINAL Logo PGNET-branca.png"
 		}
 	});
