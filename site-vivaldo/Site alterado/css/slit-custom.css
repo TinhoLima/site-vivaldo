@@ -159,25 +159,31 @@
 
 .seo_version .bg-img-1 {
 	background-image: url(../images/2022/banner/1.jpg);
-	
+	background-attachment: fixed;
 }
 .seo_version .bg-img-2 {
 	background-image: url(../images/2022/banner/2.jpg);
+	background-attachment: fixed;
 }
 .seo_version .bg-img-3 {
 	background-image: url(../images/2022/banner/3.jpg);
+	background-attachment: fixed;
 }
 .seo_version .bg-img-4 {
 	background-image: url(../images/2022/banner/4.jpg);
+	background-attachment: fixed;
 }
 .seo_version .bg-img-5 {
 	background-image: url(../images/2022/banner/5.jpg);
+	background-attachment: fixed;
 }
 .seo_version .bg-img-6 {
 	background-image: url(../images/2022/banner/6.jpg);
+	background-attachment: fixed;
 }
 .seo_version .bg-img-7 {
 	background-image: url(../images/2022/banner/7.jpg);
+	background-attachment: fixed;
 }
 
 
