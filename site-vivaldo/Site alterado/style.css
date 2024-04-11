@@ -496,6 +496,13 @@ a img.aligncenter {
     color: #007a8a !important;
 }
 
+.nav-row {
+    color: #fff;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
 
 .top-navbar .navbar-light .nav-item{
 	position: relative;
@@ -1028,9 +1035,6 @@ body.seo_version .btn-light.ban-btn{
 
 .vission-and-mission {
 	margin-top: 50px;
-}
-.nav-pills {
-    border: 1px solid #e1e1e1;
 }
 .nav-pills > li {
     width: 50%;
