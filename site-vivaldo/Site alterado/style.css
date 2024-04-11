@@ -471,21 +471,26 @@ a img.aligncenter {
     z-index: 1000;
 }
 
+.top-navbar .container-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 .top-navbar .bg-light{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
 }
 
-/* .top-navbar .container {
-    display: flex;
-    justify-content: space-between;
-} */
-
 .top-navbar .navbar-expand-lg .navbar-nav{
-	background: #01A79D; 
+	/* background: #01A79D;  */
     /* 0594a9 COR ANTERIOR */
 	border-radius: 5px;
+}
+
+.color-navbar {
+    background: #01A79D; 
+    border-radius: 5px;
 }
 
 
@@ -504,25 +509,25 @@ a img.aligncenter {
 	left: 0px;
 	bottom: 0px;
 	width: 100%;
-	height: 0%;
+	height: 10%;
 	display: block;
 	opacity: 0;
 	border-radius: 5px;
 	background-color: #340653;
-	-webkit-transition: all 700ms ease;
+	/* -webkit-transition: all 700ms ease;
 	-ms-transition: all 700ms ease;
-	-o-transition: all 700ms ease;
+	-o-transition: all 700ms ease; */
 	transition: all 500ms ease;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item.active::before{
 	opacity: 1;
-	height: 100%;
+	height: 10%;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item:hover::before{
 	opacity: 1;
-	height: 100%;
+	height: 10%;
 }
 
 .top-navbar .navbar-light .navbar-nav li .dropdown-menu{
