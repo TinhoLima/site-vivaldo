@@ -14,11 +14,11 @@
 
 		if ($(window).scrollTop() > 0) {
 			$('.top-navbar').addClass('fixed-menu');
-            $('.navbar-nav').addClass('color-navbar')
+            $('.nav-link').addClass('color-navbar')
             img.src = "images/logo-pgnet/ARTE FINAL Logo PGNET.png"
 		} else {
             $('.top-navbar').removeClass('fixed-menu');
-            $('.navbar-nav').removeClass('color-navbar')
+            $('.nav-link').removeClass('color-navbar')
             img.src = "images/logo-pgnet/ARTE FINAL Logo PGNET-branca.png"
 		}
 	});
