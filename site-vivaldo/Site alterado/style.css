@@ -477,9 +477,10 @@ a img.aligncenter {
 	box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
 }
 
-.top-navbar .navbar-nav {
-    
-}
+/* .top-navbar .container {
+    display: flex;
+    justify-content: space-between;
+} */
 
 .top-navbar .navbar-expand-lg .navbar-nav{
 	background: #01A79D; 
