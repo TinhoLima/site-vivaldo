@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -112,7 +113,7 @@
                 
             </div><!-- end row -->
 			
-			<div class="row vission-and-mission">
+			<div class="row vission-and-mission"  data-aos="fade-up">
 				<div class="col-md-12">
 					<ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
 						<li class="nav-item"><a class="nav-link active" href="#tab_a" data-toggle="tab">Nossos alunos</a></li>
@@ -596,7 +597,7 @@
         </div>
     </div><!-- end section -->
 
-	<footer class="footer">
+	<footer class="footer"  data-aos="fade-up">
 		<div class="container">
 				<div class="row">
 						<div class="col-lg-2 col-md-6 col-xs-12">
@@ -725,6 +726,13 @@
 	<script>
 		tippy('.btn-a')
 	</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+</script>
 
 </body>
 </html>

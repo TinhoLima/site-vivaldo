@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -99,7 +100,7 @@
             </p>
             </div><!-- end title -->
 
-            <div class="row vission-and-mission">
+            <div class="row vission-and-mission"  data-aos="fade-up">
                 <div class="col-md-12">
                     <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
                         <li class="nav-item"><a class="nav-link active" href="#tab_a" data-toggle="tab">Conceitos</a></li>			
@@ -110,7 +111,7 @@
                             <div class="box-inner-m">
                                 <div class="seo-services row clearfix">
 
-                                    <div class="col-md-5 col-xs-12 mt-5">
+                                    <div class="col-md-5 col-xs-12 mt-5"  data-aos="fade-right">
                                            <ul>
                                                <li><p class="paragrafo text-justify">Dar atenção à diversidade curricular e a formações mais compatíveis com o conhecimento já disponível, bem como o incentivo a programas de formação multi-, inter- e transdisciplinares.</p></li>
                                                 
@@ -119,7 +120,7 @@
                                                <li><p class="paragrafo text-justify">Contemplar o espelhamento não linear das áreas do conhecimento e a criação de centros de excelência em ensino e pesquisa de padrão internacional.</p></li>
                                            </ul>
                                     </div><!-- end col -->
-                                    <div class="col-md-6 col-xs-12" id="diretrizes">
+                                    <div class="col-md-6 col-xs-12" id="diretrizes"  data-aos="fade-left">
                                         <div class="post-media wow fadeIn">
                                         <img src="images/2022/desdobramento/equipe_vivaldo.jpg" class="img-fluid img-manual-class imgDestaque" alt="" />
                                         <p class="paragrafo text-justify">
@@ -135,7 +136,7 @@
                     </div>
                 </div>				
 
-			<div class="row vission-and-mission">
+			<div class="row vission-and-mission"  data-aos="fade-up">
 				<div class="col-md-12">
 					<ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
 						<li class="nav-item"><a class="nav-link active" href="#tab_a" data-toggle="tab">Diretrizes Gerais</a></li>			
@@ -146,27 +147,27 @@
 							<div class="box-inner-m">
                                 <div class="seo-services row clearfix">
                                     
-                                    <div class="col-md-12 col-xs-12">
+                                    <div class="col-md-12 col-xs-12"  data-aos="fade-left">
                                             <h2><img src="images/1.png" class="imgDestaque"> <p class="text-justify">Estímulo à formação de redes de pesquisa e pós-graduação, envolvendo parcerias nacionais e internacionais, no nível da fronteira do conhecimento, visando à promoção da descoberta do "novo" e apoiar projetos inéditos.</p></h2>
                                     </div><!-- end col -->
 
                                     
-                                    <div class="col-md-12 col-xs-12">
+                                    <div class="col-md-12 col-xs-12"  data-aos="fade-right">
                                             <h2><img src="images/2.png" class="imgDestaque">  <p class="text-justify"> A nação deve investir nas atuais gerações de crianças e jovens, particularmente nas áreas de saúde e educação, em ações voltadas para o ensino básico e superior, pois dependerá dessas o desempenho da economia brasileira nas próximas décadas.</p></h2>
                                     </div><!-- end col -->
 
                                    
-                                    <div class="col-md-12 col-xs-12">
+                                    <div class="col-md-12 col-xs-12"  data-aos="fade-left">
                                             <h2><img src="images/3.png" class="imgDestaque">   <p class="text-justify">Garantia do apoio ao crescimento inercial do Sistema Nacional de Pós-Graduação (SNPG)</p></h2>
                                     </div><!-- end col -->
 
                                     
-                                    <div class="col-md-12 col-xs-12">
+                                    <div class="col-md-12 col-xs-12"  data-aos="fade-right">
                                             <h2><img src="images/4.png" class="imgDestaque">   <p class="text-justify">Consideração nos diferentes programas visando o desenvolvimento, a economia, a saúde e a educação no Brasil, das características culturais das populações.</p></h2>
                                     </div><!-- end col -->
 
                                     
-                                    <div class="col-md-12 col-xs-12">
+                                    <div class="col-md-12 col-xs-12"  data-aos="fade-left">
                                             <h2><img src="images/5.png" class="imgDestaque">   <p class="text-justify">Importância às questões ambientais na pós graduação.</p></h2>
                                     </div><!-- end col -->
               
@@ -181,7 +182,7 @@
     </div><!-- end section -->
 
 	
-	<footer class="footer">
+	<footer class="footer"  data-aos="fade-up">
 		<div class="container">
 				<div class="row">
 						<div class="col-lg-2 col-md-6 col-xs-12">
@@ -311,6 +312,13 @@
 	<script>
 		tippy('.btn-a')
 	</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init({
+		duration: 1000,
+	});
+</script>
 
 </body>
 </html>
