@@ -448,16 +448,35 @@ a img.aligncenter {
 
 
 .top-navbar .img-header{
-    /* background: url(images/header3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed; */
     height: 600px;
     overflow: hidden;
     width: 100%;
     justify-content: center;
     
+}
+
+div.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slide-box img{
+    width: 100%;
 }
 
 .top-navbar .img-header img {
