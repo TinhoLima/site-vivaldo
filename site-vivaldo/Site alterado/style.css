@@ -577,6 +577,7 @@ div.slider{
     flex-basis: 0;
     flex-grow: 1;
     text-align: center;
+    background-color: tomato;
 }
 
 
@@ -1032,7 +1033,13 @@ overflow: hidden;
     padding-top: 50px;
 }
 
-.imgDestaque:hover{scale: 1.05;
+.imgDestaque3:hover {
+    scale: 1.05;
+    transition: all .2s ease-in-out;
+}
+
+.imgDestaque:hover{
+    scale: 1.05;
     /* box-shadow:0 4px 4px #727272; */
     transition: all .2s ease-in-out;
 }
@@ -1138,7 +1145,7 @@ body.seo_version .btn-light.ban-btn{
 }
 
 .vission-and-mission .nav-pills > li > a{
-	    padding: 12px 15px;
+	padding: 12px 15px;
 }
 
 .box-inner-m{
