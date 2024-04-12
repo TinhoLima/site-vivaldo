@@ -14,7 +14,7 @@
 
 		if ($(window).scrollTop() > 0) {
 			$('.top-navbar').addClass('fixed-menu');
-            $('.nav-link').addClass('color-navbar');
+            $('.navbar-nav .nav-link').addClass('color-navbar');
             $('.bg-light').addClass('shadow-on');
             $('.navbar').removeClass('navbar-shadow');
             img.src = "images/logo-pgnet/ARTE FINAL Logo PGNET.png"
