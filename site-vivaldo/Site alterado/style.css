@@ -105,7 +105,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #121212;
+    color: #1d393a;
     margin: 0
 }
 
@@ -960,7 +960,7 @@ a.bttn-new:focus {
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
-    margin: 0 20px;
+    margin: 0 50px 50px 50px;
 }
 
 .section-title2 {
@@ -1014,8 +1014,12 @@ overflow: hidden;
 
 .videoDestaque:hover{scale: 1.03;
     box-shadow:0 4px 4px #727272;
-    transition: all .2s ease-in-out;}
+    transition: all .2s ease-in-out;
+}
 
+.imgDestaque2 {
+    padding-top: 100px;
+}
 
 .imgDestaque2:hover{
     scale: 1.05;
@@ -1024,7 +1028,7 @@ overflow: hidden;
     text-align: center;
 }
 
-.imgDestaque2 {
+.imgDestaque3 {
     padding-top: 50px;
 }
 
@@ -1035,7 +1039,7 @@ overflow: hidden;
 
 .tituloAnimado::after{
     content: " ";
-    width: 0%;
+    width: 10%;
     height: 4px;
     background-color: #000;
     position: absolute;
@@ -1075,6 +1079,14 @@ overflow: hidden;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
 }
 
+.container-section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.container-section .paragrafo {
+    padding: 0 20px;
+}
 
 .centralizarTitulo{
     text-align: center;
@@ -2917,9 +2929,9 @@ body.seo_version .footer-links a:hover{
     font-weight: 600;
     background-color: #ea3232;
     border-radius: 20px;
-    padding: 8px 10px;
+    padding: 12px 20px;
     margin: 0 5px;
-    box-shadow: 2px 8px 18px 0px rgba(254, 76, 28, 0.3);
+    box-shadow: 2px 5px 18px 0px rgba(254, 76, 28, 0.3);
 }
 
 .btn-click:hover {
