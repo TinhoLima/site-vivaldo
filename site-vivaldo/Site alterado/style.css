@@ -448,10 +448,16 @@ a img.aligncenter {
 
 
 .top-navbar .img-header{
+    /* background: url(images/header3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed; */
     height: 600px;
     overflow: hidden;
     width: 100%;
     justify-content: center;
+    
 }
 
 .top-navbar .img-header img {
