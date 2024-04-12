@@ -451,6 +451,7 @@ a img.aligncenter {
     height: 600px;
     overflow: hidden;
     width: 100%;
+    justify-content: center;
 }
 
 .top-navbar .img-header img {
