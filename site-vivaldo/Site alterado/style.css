@@ -468,6 +468,10 @@ div.slider{
     margin-left: -50%;
 }
 
+#radio4:checked ~ .primeiro{
+    margin-left: -75%;
+}
+
 
 
 
