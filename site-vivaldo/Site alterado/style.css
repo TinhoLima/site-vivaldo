@@ -3213,14 +3213,16 @@ body.seo_version .footer-links a:hover{
 }
 
 .btn-click {
-    font-size: 12px;
-    color: #fff;
+    font-size: 16px;
+    /* color: #fff; */
+    color: #ffffff;
     font-weight: 600;
-    background-color: #ea3232;
+    background-color: #63d1c2;
     border-radius: 20px;
     padding: 8px 12px;
     margin: 0 5px;
-    box-shadow: 0px 0px 1px 5px rgba(254, 76, 28, 0.3);
+    /* box-shadow: 0px 0px 1px 5px rgba(254, 76, 28, 0.3) */
+    box-shadow: 2px 8px 18px 1px rgba(28, 254, 224, 0.3)
 }
 
 .btn-click:hover {
@@ -3349,14 +3351,14 @@ body.seo_version .footer-links a:hover{
 }
 
 .process-accordion .card.active .card-header{
-	background: #0594a9;
+	background: #36b4a3;
 }
 .process-accordion .card.active .card-header h5 a{
 	color: #ffffff;
 }
 
 .process-accordion .card-header h5 a:hover{
-	background: #0594a9;
+	background: #36b4a3;
 	color: #ffffff;
 }
 
