@@ -2105,7 +2105,7 @@ button.bttn-new-a:focus {
     position: relative;
 }
 
-.post-media img {
+.section .post-media img {
     width: 80%;
     border: 8px solid #fff;
     margin-bottom: 8px;
