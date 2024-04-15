@@ -340,7 +340,10 @@ a img.aligncenter {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background-color: #01A79D;
+  background-color:  #3d0757;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .loader-wrapper .text {
@@ -440,6 +443,28 @@ a img.aligncenter {
     left: 0;
     width: 0px;
   }
+}
+
+.carregando{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    display: block;
+    border: 12px solid rgb(255, 255, 255);
+    border-top: 12px solid transparent;
+    border-radius: 50%;
+
+    animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading{
+    0%{
+      transform: rotate(0deg);  
+    }
+
+    100%{
+        transform: rotate(360deg);  
+      }
 }
 
 
