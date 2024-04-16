@@ -2045,10 +2045,6 @@ button.bttn-new-a:focus {
     border-radius: 20px;
 }
 
-.message-box {
-    margin-top: 80px;
-}
-
 .message-box h4 {
     text-transform: uppercase;
     padding: 0;
@@ -2070,7 +2066,7 @@ button.bttn-new-a:focus {
 }
 
 .message-box p {
-    margin-bottom: 20px;
+    margin: 50px;
 }
 
 .message-box .lead {
@@ -2105,7 +2101,7 @@ button.bttn-new-a:focus {
     position: relative;
 }
 
-.section .post-media img {
+.section .post-media-img img {
     width: 80%;
     border: 8px solid #fff;
     margin-bottom: 8px;
