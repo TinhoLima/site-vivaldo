@@ -923,6 +923,9 @@ div.slider{
     SECTIONS
 -------------------------------------------------------------------*/
 
+.section-row {
+    margin: 0 50px;
+}
 
 .sl-slider-wrapper {
 	width: 800px;
@@ -1289,11 +1292,14 @@ overflow: hidden;
     background-attachment: fixed;
 }
 
-.videoDestaque{position:relative;
+.videoDestaque{
+    position:relative;
     box-shadow:0 4px 4px #999;
-    top:0}
+    top:0
+}
 
-.videoDestaque:hover{scale: 1.03;
+.videoDestaque:hover{
+    scale: 1.03;
     box-shadow:0 4px 4px #727272;
     transition: all .2s ease-in-out;
 }
@@ -1468,6 +1474,11 @@ body.seo_version .btn-light.ban-btn{
 
 .why-dit p{
 	font-size: 18px;
+}
+
+.img-job .img-manual-class {
+    border-radius: 20px;
+    margin-left: 50px;
 }
 
 /*------------------------------------------------------------------
