@@ -866,7 +866,7 @@ div.slider{
 .top-navbar .navbar-light .nav-link{
 	padding: 10px 12px;
 	color: #fff;
-    font-size: 16px;
+    font-size: .8vw;
     font-weight: 600;
 	position: relative;
 }
@@ -883,6 +883,7 @@ div.slider{
 	opacity: 0;
 	border-radius: 5px;
 	background-color: #3d0757;
+    /* background-color: #007a8a; */
 	/* -webkit-transition: all 700ms ease;
 	-ms-transition: all 700ms ease;
 	-o-transition: all 700ms ease; */
@@ -1330,6 +1331,7 @@ overflow: hidden;
     transition: all .2s ease-in-out;
 }
 
+
 .tituloAnimado::after{
     content: " ";
     width: 10%;
@@ -1474,6 +1476,10 @@ body.seo_version .btn-light.ban-btn{
 
 .why-dit p{
 	font-size: 18px;
+}
+
+.img-job {
+    margin-top: 100px;
 }
 
 .img-job .img-manual-class {
