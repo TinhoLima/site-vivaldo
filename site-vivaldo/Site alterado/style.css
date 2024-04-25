@@ -808,7 +808,6 @@ div.slider{
 
 .modal.modal-fullscreen .modal-dialog,
 .modal.modal-fullscreen .modal-content {
-
   bottom: 0;
   left: 0;
   position: absolute;
@@ -970,7 +969,7 @@ div.slider{
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 9999;
+	z-index: 900;
 	visibility: visible;
 	transform: translate(0,0) scale(1);
 	transition: .3s;
@@ -1400,20 +1399,6 @@ overflow: hidden;
     box-shadow: 2px 4px 8px 1px rgb(155, 155, 155);
 }
 
-
-
-.img-edital .image-container .text {
-    display: none;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-
 .img-edital img{
     width: 150px;
     height: 200px;
@@ -1422,6 +1407,20 @@ overflow: hidden;
 .img-edital .image-container {
     position: relative;
     display: inline-block;
+}
+
+.img-edital .image-container .text {
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background-color: rgba(29, 29, 29, 0.534);
+    padding: 20px 10px;
+    border-radius: 5px;
 }
 
 .img-edital .image-container:hover .text{
