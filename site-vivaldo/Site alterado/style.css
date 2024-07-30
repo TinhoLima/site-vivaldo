@@ -966,6 +966,47 @@ div.slider{
     margin: 0 50px;
 }
 
+/* Slide de eventos */
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+/* FIM slide de eventos */
+
 .sl-slider-wrapper {
 	width: 800px;
 	height: 400px;
